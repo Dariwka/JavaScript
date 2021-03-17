@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(119, 55, 99);
+  height: 100vh;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+
+  overflow: hidden;
+}
+
+label {
+  display: block;
+  font: 1rem "Lato", sans-serif;
+}
+
+input,
+label {
+  margin: 0.5rem 0;
+  border-radius: 5px;
+}
+
+h1 h2 input p {
+  font-family: "Lato", sans-serif;
+}
+
+#clock {
+  color: rgb(20, 15, 39);
+}

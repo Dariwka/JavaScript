@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>TIME</title>
+</head>
+<body>
+  <h1>The current time on your computer: <span id="clock"></span></h1>
+<h2>Please write the date and your event</h2>
+<form id=inputDate>
+    <div>
+        <label for="TIME">Start time:</label>
+        <input type="time" id="startTime"/>
+    </div>
+    <div>
+        <label for="date">Date:</label>
+        <input type="date" id="endDate"/>
+    </div>
+    <div>
+        <label for="event">Event:</label>
+        <input type="text" id="yourEvent">
+    </div>
+    <input type = "button" onclick="showDate()" value="submit">
+    <input type="reset" id="resetAll">
+</form>
+<p></p>
+<p id="timer"></p>
+<script src="main.js"></script>
+</body>
+</html>
